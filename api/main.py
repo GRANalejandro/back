@@ -43,6 +43,8 @@ def get_users(db: Session = Depends(get_db)):
 def get_movies(db: Session = Depends(get_db)):
     return crud.get_movies(db=db)
 
+    
+
 
 
 
